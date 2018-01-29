@@ -20,6 +20,5 @@ app.use(koaBody()).use(bodyParser());
 // 加载路由中间件
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(3000)
-console.log('http://localhost:3000');
+app.listen(3000, () => console.log('http://localhost:3000'));
 
