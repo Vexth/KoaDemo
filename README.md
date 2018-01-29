@@ -4,7 +4,7 @@
 
 ``` yarn install ```
 
-### 启动mongodb
+ 启动mongodb
 
 ``` yarn start ```
 
